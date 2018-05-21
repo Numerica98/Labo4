@@ -9,6 +9,10 @@ package Factory;
  *
  * @author LN710Q
  */
-public class Binario {
+public class Binario implements Operacion {
+    @Override
+    public void convertir(){
+        
+    }
     
 }
