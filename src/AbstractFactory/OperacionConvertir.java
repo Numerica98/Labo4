@@ -10,5 +10,5 @@ package AbstractFactory;
  * @author UCA
  */
 public interface OperacionConvertir {
-    int convertir(int num);
+    String convertir(int num);
 }

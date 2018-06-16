@@ -15,8 +15,16 @@ import AbstractFactory.OperacionConvertir;
 public class Binario implements OperacionConvertir {
 
     @Override
-    public int convertir(int num) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public String convertir(int num) {
+        String binario="";
+        int residuo;
+        
+        while(num>0){
+           residuo= num%2;
+           binario= residuo+ binario;
+           num= num/2;
+        }
+        return binario;
     }
     
 }
