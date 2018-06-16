@@ -3,16 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Factory;
+package AbstractFactory.ProductosConcretos;
+
+import AbstractFactory.OperacionAritmetica;
 
 /**
  *
- * @author LN710Q
+ * @author UCA
  */
-public class Binario implements Operacion {
+public class Suma implements OperacionAritmetica{
+
     @Override
-    public void convertir(){
-        
+    public int operar(int num1, int num2) {
+        return num1 +num2;
     }
     
 }

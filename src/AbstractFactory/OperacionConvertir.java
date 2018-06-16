@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Factory;
+package AbstractFactory;
 
 /**
  *
- * @author LN710Q
+ * @author UCA
  */
-public interface Operacion {
-    void sumar();
-    void restar();
-    void convertir();
-    
+public interface OperacionConvertir {
+    int convertir(int num);
 }

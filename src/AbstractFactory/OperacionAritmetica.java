@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Factory;
+package AbstractFactory;
 
 /**
  *
  * @author LN710Q
  */
-public class Convertor {
-    
+public interface OperacionAritmetica {
+    int operar(int num1, int num2);
 }
